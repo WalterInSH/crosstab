@@ -24,7 +24,9 @@ awk -F, -v first=1 -v sec=2 -v val=3 -f crosstab.awk data-without-header.csv
 ### Parameter explanation
 
 first - The number of the unique column for new table
+
 sec - The number of the column you want to spread
+
 val - The number of the column stores the value
 
 ### Notice
