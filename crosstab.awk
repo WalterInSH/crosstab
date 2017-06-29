@@ -10,6 +10,8 @@ END{
         printf ",%s",c 
     }
 
+    print ""
+
     for(row in data){
         printf "%s",row
         for(col in columns){
